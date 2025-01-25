@@ -8,9 +8,9 @@ for x in range(12):
     l+=1
 
     if x<10:
-        link = "https://wol.jw.org/pl/wol/d/r12/lp-p/110202520"+str(x)
+        link = "https://wol.jw.org/cs/wol/d/r29/lp-b/110202520"+str(x)
     else:
-        link = "https://wol.jw.org/pl/wol/d/r12/lp-p/11020252"+str(x)
+        link = "https://wol.jw.org/cs/wol/d/r29/lp-b/11020252"+str(x)
 
     f = requests.get(link)
     source = f.text
