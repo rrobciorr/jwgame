@@ -1,3 +1,6 @@
-to run this game type:
+-To download:
+git clone https://github.com/rrobciorr/jwgame.git
+
+-to run this game type:
 cd cestina
 python3 jw.py
